@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img, video, audio {
+    max-width: 100%;
+}
+
+nav {
+    background-color: orange;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.hero h1 {
+   font-size: 40px;
+   text-align: center;
+}
+.sub-hero {
+    margin-top: 40px;
+    background-color: orange;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.sub-hero h2 {
+    text-align: center;
+}
+.sub-hero span {
+    color: cadetblue;
+}
+.sub-hero img {
+    border-radius:  10px;
+}
+#Hairstyles {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 16px;
+}
+#Hairstyles h2 {
+    color: orange;
+    text-align: center;
+}
+#Hairstyles ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 16px;
+}
+
+#pricing {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+#pricing h2 {
+    text-align: center;
+    color: orange;
+}
+#pricing table {
+    border-collapse: collapse;
+}
+#pricing table th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+    width: 50px;
+}
+#pricing table tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+#media {
+    margin-top: 60px;
+    background-color: black;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+ #media h2 {
+    color: orange;
+    text-align: center;
+ }
+ #media h4 {
+    color: white;
+
+ }
+ #about {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+#about h2 {
+    color: orange;
+    text-align: center;
+}
+#about p {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+#contact {
+    margin-top: 60px;
+    background-color: orange;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact h2 {
+    color: white;
+    text-align: center;
+}
+#contact h4 {
+    text-align: center;
+}
+#contact form {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 40px;
+    #background-color: #373534;
+    border-radius: 20px;
+
+
+}
+#contact p {
+    text-align: center;
+}
+.but {
+
+}
+@media (min-width: 768px) {
+    #contact form {
+        padding: 0px 70px;
+    }
+}
+@media (min-width: 1200) {
+    #contact {
+        padding: 0px 200px !important;
+    }
+}
